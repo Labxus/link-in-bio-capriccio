@@ -1,4 +1,7 @@
 ---
+
+import '../css/style.css'
+
 ---
 
 <html lang="en">
@@ -9,7 +12,22 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-[#473335]">
+		<div class="w-screen h-[95vh] flex flex-col justify-evenly items-center">
+			<div class="w-full h-auto flex justify-center items-center my-5">
+				<img src="Logo_Capriccio_Pizza_Artesanal_3.png" alt="">
+			</div>
+			<div class="w-full h-auto flex justify-center items-center">
+				<img src="contactanos.png" alt="">
+			</div>
+			<div class="w-full h-40 flex justify-center items-end gap-3">
+				<a href="https://es-la.facebook.com/" target="_blank"><img class="" src="facebook.png" alt=""></a>
+				<a href="https://api.whatsapp.com/send?phone=+573245671739&text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos." target="_blank"><img class="-translate-y-5" src="whatsapp.png" alt=""></a>
+				<a href="https://www.instagram.com/dr.gluck.co/" target="_blank"><img class="" src="instagram.png" alt=""></a>
+			</div>				
+		</div>
+		<footer class="absolute left-0 right-0 bottom-0 text-center text-[#FFFFC7]">
+			<p>powered by <span class="text-lg">Labxus</span></p>
+		</footer>
 	</body>
 </html>
